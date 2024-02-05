@@ -1,15 +1,15 @@
 variable "instance_type" {
-    default =""
+    default ="t3.medium"
 }
 
 variable "ami_id" {
-default =""
+default ="ami-0277155c3f0ab2930"
 }
 
 variable "az_zone" {
-default =""
+default ="us-east-1a"
 }
 
 variable "key_name" {
-default =""
+default ="jenkins"
 }
