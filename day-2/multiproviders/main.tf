@@ -8,11 +8,11 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "test" {
-  bucket = "del-hyd-naresh-it"
+  bucket = "del-hyd-south-1"
 
 }
 resource "aws_s3_bucket" "test2" {
-  bucket = "del-hyd-naresh-it-test2"
+  bucket = "del-hyd-east-1"
   provider = aws.america
   
 }
