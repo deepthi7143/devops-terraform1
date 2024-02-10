@@ -10,7 +10,7 @@ output "instance_public_dns" {
     value = aws_instance.test.public_dns
   
 }
-output "instance_arn" {
-    value = aws_instance.test.arn
+#output "instance_arn" {
+   # value = aws_instance.test.arn
   
-}
+#}
