@@ -2,7 +2,7 @@
 
 variable "layer" {
     type = string
-    default = "uat"
+    default = "terraform"
   
 }
 
